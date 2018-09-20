@@ -42,7 +42,7 @@ public class ShaderInfo
               StringBuilder builder = new StringBuilder();
               builder.AppendFormat("shader:{0} ", shaderName);
               if (matGO.Count > 0)
-                     builder.Append("[");
+                     builder.Append("\r\n[");
               foreach (var pair in matGO)
               {
                      builder.AppendFormat(" (Material:{0} -- ", pair.Key);
