@@ -76,6 +76,7 @@ public static class GameObjectUtil
               if(obj==null)
                      return;
               names.Add(obj.name);
+              GetFullNameRecursive(obj.parent,names);
        }
 
       /// <summary>
